@@ -5,7 +5,7 @@ def find_period(L0,L1):
     T1 = 2* np.pi * np.sqrt(L1 /g)
     for L in range(L0, L1 + 1):
         T_current = 2* np.pi * np.sqrt(L/ g)
-        print(f"when L = {float(L):.1f} m, T = {T_current:.1f} s")
+        print(f"When L = {float(L):.1f} m, T = {T_current:.1f} s")
     return T0, T1  
 myresult=find_period(2,10)  
         
